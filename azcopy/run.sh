@@ -36,8 +36,8 @@ case $auth_type in
 esac
 
 
-# bashio::log.info "Found these backups:"
-# bashio::log.info "$(ls /backup/)"
+bashio::log.info "Found these backups:"
+bashio::log.info "$(ls /backup/)"
 
 bashio::log.info "$(azcopy --version)"
 
