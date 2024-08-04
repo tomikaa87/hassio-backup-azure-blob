@@ -2,10 +2,10 @@ name: Auto Delete Snapshots
 version: 0.0.1
 slug: autodelete
 description: Container to automatically delete backups older than set number of days
-url: https://github.com/jak119/hassio-backup-azure-blob/tree/main/autodelete
+url: https://github.com/tomikaa87/hassio-backup-azure-blob/tree/main/autodelete
 startup: once
 boot: manual
-image: ghcr.io/jak119/{arch}-ha-addon-autodelete
+image: ghcr.io/tomikaa87/{arch}-ha-addon-autodelete
 init: false
 options:
   daystokeep: 7
@@ -14,8 +14,5 @@ schema:
 map:
   - backup:rw
 arch:
-  - amd64
-  - armv7
-  - i386
   - aarch64
 stage: experimental
