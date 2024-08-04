@@ -1,6 +1,6 @@
 # Adapted from https://github.com/PeterDaveHello/docker-azcopy
 ARG AZCOPY_VERSION
-ARG GO_VERSION=1.18
+ARG GO_VERSION=1.22.5
 ARG ALPINE_VERSION
 ARG BUILD_ARCH
 ARG BUILD_FROM
